@@ -1,7 +1,7 @@
 ---
-patriciomacadden:
-- source: .bash_profile
-  target: ~/.bash_profile
+mullerivan:
+- source: .bashrc
+  target: ~/.bashrc
 
 - source: .gemrc
   target: ~/.gemrc
@@ -17,9 +17,3 @@ patriciomacadden:
 
 - source: .vimrc
   target: ~/.vimrc
-
-- source: TextMate/Themes/GitHub.tmTheme
-  target: '~/Library/Application Support/TextMate/Managed/Bundles/Themes.tmbundle/Themes/GitHub.tmTheme'
-
-- source: TextMate/Themes/railscasts.tmTheme
-  target: '~/Library/Application Support/TextMate/Managed/Bundles/Themes.tmbundle/Themes/railscasts.tmTheme'
