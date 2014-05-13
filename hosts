@@ -1,0 +1,30 @@
+127.0.0.1	localhost
+127.0.1.1 juana
+
+# NZTO
+124.198.191.63 a.tourism.net.nz svn.tourism.net.nz trac.tourism.net.nz pear.tourism.net.nz banner.tourism.net.nz mailing.tourism.net.nz tourism3
+124.198.191.63 t3
+124.198.191.63 jenkins.tourism.net.nz
+124.198.191.63 banner.tourism.net.nz
+124.198.191.95 t4
+124.198.191.95 tourism4
+
+#218.185.224.152 mainlinecommercials.co.nz
+#218.185.224.152 mainlinetrack.co.nz
+#218.185.224.152 www.gourmetseafood.co.nz
+#218.185.224.152 www.mainlinetrack.co.nz
+#218.185.224.152 buller.co.nz
+#162.248.164.204 centroagalma.com.ar
+162.248.164.204 webmail.centroagalma.com.ar
+#218.185.224.223 aspectbuilders.co.nz
+#218.185.224.223 waypointsexam.co.nz
+#218.185.224.223 paraseaanchor.com
+#218.185.224.223 contenthomeware.co.nz
+#218.185.224.223 www.contenthomeware.co.nz
+
+# The following lines are desirable for IPv6 capable hosts
+#::1     ip6-localhost ip6-loopback
+#fe00::0 ip6-localnet
+#ff00::0 ip6-mcastprefix
+#ff02::1 ip6-allnodes
+#ff02::2 ip6-allrouters

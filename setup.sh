@@ -4,4 +4,6 @@ rm -fr /home/ivan/.vimrc ;ln -s /home/ivan/projectos/dotfiles/.vimrc  /home/ivan
 rm -fr /home/ivan/.vim ;ln -s /home/ivan/projectos/dotfiles/.vim  /home/ivan/.vim
 rm -fr  /home/ivan/.gemrc; ln -s /home/ivan/projectos/dotfiles/.gemrc  /home/ivan/.gemrc
 rm -fr  /etc/rc.local; ln -s /home/ivan/projectos/dotfiles/rc.local  /etc/rc.local
+#hosts files
+rm -fr /etc/hosts ;ln -s /home/ivan/projectos/dotfiles/hosts  /etc/hosts
 
