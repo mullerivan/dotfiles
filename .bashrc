@@ -12,6 +12,8 @@ alias up80='sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT'
 alias mtop='sudo mtop --user=root --password=im'
 alias flatout='wine  /home/ivan/Game/FlatOut/flatout.exe'
 alias dropiptables='sudo sh /home/ivan/projectos/dotfiles/drop-iptables.sh'
+alias whatsmyip='wget -qO- http://ipecho.net/plain ; echo'
+#alias listusers ='awk -F":" '{ print "username: " $1 "\t\tuid:" $3 }' /etc/passwd'
 # awk '!array_temp[$0]++' .bash_history  >nuevo_historial
 # inetstat  -nlpt
 # /usr/bin/mysqldump ––extended-insert ––all-databases ––add-drop-database ––disable-keys ––flush-privileges ––quick ––routines ––triggers > /root/all-databases.sql
@@ -57,3 +59,10 @@ function parse_git_branch {
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+#Yellow
+alias t2='ssh tourismsta@203.89.182.110'
+alias t3='ssh 124.198.191.63'
+alias t4='ssh 124.198.191.95'
+alias t5='ssh 202.130.47.221'
+alias australia='ssh australiatourism.travel'
+alias office='ssh nztg@192.168.8.11'
