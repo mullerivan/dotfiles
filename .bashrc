@@ -13,6 +13,8 @@ alias mtop='sudo mtop --user=root --password=im'
 alias flatout='wine  /home/ivan/Game/FlatOut/flatout.exe'
 alias dropiptables='sudo sh /home/ivan/projectos/dotfiles/drop-iptables.sh'
 alias whatsmyip='wget -qO- http://ipecho.net/plain ; echo'
+alias p='cat ~/yellow/.p'
+alias du='du -csh'
 #alias listusers ='awk -F":" '{ print "username: " $1 "\t\tuid:" $3 }' /etc/passwd'
 # awk '!array_temp[$0]++' .bash_history  >nuevo_historial
 # inetstat  -nlpt

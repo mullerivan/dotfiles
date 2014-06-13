@@ -7,6 +7,10 @@ set shiftwidth=2
 set expandtab
 set autoindent
 set smartindent
+set nobackup
+set noswapfile
+set nowritebackup
+set cm=blowfish
 
 " show tabs and trailing spaces
 set list
