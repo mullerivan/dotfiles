@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/ivan/projectos/SilverStripe-cms-v3.1.2/mysite/_config'
 let g:netrw_dirhist_2='/home/ivan/projectos/mainlinetrack/mysite/_config'
 let g:netrw_dirhist_3='/home/ivan/projectos/mainlinetrack/Migration/scripts'
 let g:netrw_dirhist_4='/home/ivan/www/dumps/public_html/mysite/_config'
 let g:netrw_dirhist_5='/etc/nginx/conf.d'
+let g:netrw_dirhist_6='/home/ivan/yellow/mercurial/env/templates'
+let g:netrw_dirhist_7='/home/ivan/yellow/test'
+let g:netrw_dirhist_8='/home/ivan/yellow/mercurial/nztg.env'

@@ -9,24 +9,45 @@
 192.168.8.11 ivan.tourism.net.nz
 192.168.8.11 marek.tourism.net.nz
 192.168.8.11 william.tourism.net.nz
+
+#http://www.australiatourism.travel/
+103.7.168.150 www.australiatourism.travel
+103.7.168.150 www.staging.australiatourism.travel
+103.7.168.150 australiatourism.travel
+103.7.168.150 staging.australiatourism.travel
 #YODA
-202.174.115.34 www.tourism.net.nz
-202.174.115.34 tourism.net.nz
-#202.174.115.34 www.yoda_tourism.net.nz
-202.174.115.34 trac.tourism.net.nz
-202.174.115.34 newzealandtourism.co.nz
-202.174.115.34 tourism.gen.nz
-202.174.115.34 nzto.co.nz
-202.174.115.34 nzto.com
-202.174.115.34 www.tourismaward.co.nz
-202.174.115.34 tourismaward.co.nz
-202.174.115.34 tourism.org.nz
-202.174.115.34 www.tourism.org.nz
+#202.174.115.34 www.tourism.net.nz
+#127.0.0.1 www.tourism.net.nz
+#127.0.0.1 tourism.net.nz
+#127.0.0.1 www.hola.com
+#127.0.0.1 hola.com
+#202.174.115.34 tourism.net.nz
+#202.174.115.34 trac.tourism.net.nz
+#202.174.115.34 newzealandtourism.co.nz
+#202.174.115.34 www.newzealandtourism.co.nz
+#202.174.115.34 tourism.gen.nz
+#202.174.115.34 www.tourism.gen.nz
+#202.174.115.34 nzto.co.nz
+#202.174.115.34 www.nzto.co.nz
+#202.174.115.34 nzto.com
+#202.174.115.34 www.nzto.com
+#202.174.115.34 www.tourismaward.co.nz
+#202.174.115.34 tourismaward.co.nz
+#202.174.115.34 tourism.org.nz
+#202.174.115.34 www.tourism.org.nz
+#Yoda next ip
+#202.174.115.34 www.pacifictourism.travel
+#202.174.115.34 pacifictourism.travel
+#202.174.115.97 www.pacifictourism.travel
+#202.174.115.97 pacifictourism.travel
 
 #YODA STAGING
-202.174.115.34 staging.nzto.co.nz
-202.174.115.34 staging.nzto.com
-202.174.115.34 staging.newzealandtourism.co.nz;
+#202.174.115.34 staging.nzto.co.nz
+#202.174.115.34 www.staging.nzto.co.nz
+#202.174.115.34 staging.nzto.com
+#202.174.115.34 www.staging.nzto.com
+#202.174.115.34 staging.newzealandtourism.co.nz;
+#202.174.115.34 www.staging.newzealandtourism.co.nz;
 202.174.115.34 staging.tourism.net.nz
 202.174.115.34 www.staging.tourism.net.nz
 
@@ -39,22 +60,4 @@
 124.198.191.95 t4
 124.198.191.95 tourism4
 124.198.191.63 ivan.tourism.net.nz
-#218.185.224.152 mainlinecommercials.co.nz
-#218.185.224.152 mainlinetrack.co.nz
-#218.185.224.152 www.gourmetseafood.co.nz
-#218.185.224.152 www.mainlinetrack.co.nz
-#218.185.224.152 buller.co.nz
-#162.248.164.204 centroagalma.com.ar
 162.248.164.204 webmail.centroagalma.com.ar
-#218.185.224.223 aspectbuilders.co.nz
-#218.185.224.223 waypointsexam.co.nz
-#218.185.224.223 paraseaanchor.com
-#218.185.224.223 contenthomeware.co.nz
-#218.185.224.223 www.contenthomeware.co.nz
-
-# The following lines are desirable for IPv6 capable hosts
-#::1     ip6-localhost ip6-loopback
-#fe00::0 ip6-localnet
-#ff00::0 ip6-mcastprefix
-#ff02::1 ip6-allnodes
-#ff02::2 ip6-allrouters
