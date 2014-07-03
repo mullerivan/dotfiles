@@ -11,9 +11,9 @@
 192.168.8.11 william.tourism.net.nz
 
 #http://www.australiatourism.travel/
-103.7.168.150 www.australiatourism.travel
+#103.7.168.150 www.australiatourism.travel
 103.7.168.150 www.staging.australiatourism.travel
-103.7.168.150 australiatourism.travel
+#103.7.168.150 australiatourism.travel
 103.7.168.150 staging.australiatourism.travel
 #YODA
 #202.174.115.34 www.tourism.net.nz

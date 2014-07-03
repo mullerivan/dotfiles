@@ -5,7 +5,7 @@ alias sti='svn st --ignore-externals'
 alias pkill='pkill -9'
 alias s='./symfony'
 alias catt="pygmentize -g"
-alias ingenyo='ssh root@162.248.164.204'
+alias ingenyo='ssh ivan@162.248.164.204'
 alias casa='ssh casa@casa.local'
 alias dos='sudo hping3 --rand-source -i u1 -S -p 80'
 alias up80='sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT'
@@ -19,7 +19,6 @@ alias du='du -csh'
 # awk '!array_temp[$0]++' .bash_history  >nuevo_historial
 # inetstat  -nlpt
 # /usr/bin/mysqldump ––extended-insert ––all-databases ––add-drop-database ––disable-keys ––flush-privileges ––quick ––routines ––triggers > /root/all-databases.sql
-alias misServicios='netstat -lntp'
 export EDITOR=vim
 #
 export HISTSIZE=1000000
@@ -62,10 +61,9 @@ function parse_git_branch {
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 #Yellow
-alias t2='ssh tourismsta@203.89.182.110'
 alias t3='ssh 124.198.191.63'
-alias t4='ssh 124.198.191.95'
 alias t5='ssh 202.130.47.221'
 alias australia='ssh australiatourism.travel'
 alias office='ssh nztg@192.168.8.11'
 alias yoda='ssh ivan@202.174.115.34'
+#lsb_release -a
