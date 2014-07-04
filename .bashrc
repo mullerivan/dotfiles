@@ -13,6 +13,9 @@ alias dropiptables='sudo sh /home/ivan/projectos/dotfiles/drop-iptables.sh'
 alias whatsmyip='wget -qO- http://ipecho.net/plain ; echo'
 alias p='cat ~/yellow/.p'
 alias du='du -csh'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 # awk '!array_temp[$0]++' .bash_history  >nuevo_historial
 export EDITOR=vim
 export HISTSIZE=1000000
@@ -36,7 +39,7 @@ YELLOW_BOLD="\[\033[1;33m\]"
 GREEN="\[\033[1;32m\]"
 TEST="\[\033[0;33m\]"
 CYAN="\[\033[1;36m\]"
-export PS1="$YELLOW[\u$GREEN@\h$YELLOW]$BLUE\w$RED_BOLD\$(parse_git_branch)$WHITE"
+export PS1="$YELLOW[\u$GREEN@\h$YELLOW]$BLUE\w$RED_BOLD\$(parse_git_branch)\n࿊ ~$WHITE"
 
 
 # mysql2 gem fix: mac?
@@ -52,6 +55,12 @@ function parse_git_branch {
 }
 
 
+#hg_dirty() {
+#  hg status 2> /dev/null | awk '{print $1}' | sort | uniq | head -c1
+#      hg status 2> /dev/null \
+#      | awk '$1 == "?" { print "?" } $1 != "?" { print "!" }' \
+#      | sort | uniq | head -c1
+#}
 
 
 ### Added by the Heroku Toolbelt
@@ -63,3 +72,8 @@ alias australia='ssh australiatourism.travel'
 alias office='ssh nztg@192.168.8.11'
 alias yoda='ssh ivan@202.174.115.34'
 #lsb_release -a
+export PYTHONPATH=/usr/bin/python
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/bin/virtualenv
+
+source /etc/bash_completion.d/virtualenvwrapper
