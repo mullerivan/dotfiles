@@ -1,9 +1,7 @@
 alias phpstorm='sh /opt/PhpStorm/bin/phpstorm.sh &'
 alias my='mysql -uroot -p'
 alias gl="git log --pretty=oneline --abbrev-commit --graph --decorate"
-alias sti='svn st --ignore-externals'
 alias pkill='pkill -9'
-alias s='./symfony'
 alias catt="pygmentize -g"
 alias ingenyo='ssh ivan@162.248.164.204'
 alias casa='ssh casa@casa.local'
@@ -15,36 +13,34 @@ alias dropiptables='sudo sh /home/ivan/projectos/dotfiles/drop-iptables.sh'
 alias whatsmyip='wget -qO- http://ipecho.net/plain ; echo'
 alias p='cat ~/yellow/.p'
 alias du='du -csh'
-#alias listusers ='awk -F":" '{ print "username: " $1 "\t\tuid:" $3 }' /etc/passwd'
 # awk '!array_temp[$0]++' .bash_history  >nuevo_historial
-# inetstat  -nlpt
-# /usr/bin/mysqldump ––extended-insert ––all-databases ––add-drop-database ––disable-keys ––flush-privileges ––quick ––routines ––triggers > /root/all-databases.sql
 export EDITOR=vim
-#
 export HISTSIZE=1000000
 export HISTCONTROL=ignoredups
 export HISTCONTROL=ignoreboth
 export HISTTIMEFORMAT="%h %d %H:%M:%S "
 
 
-
 export SVN_EDITOR=vim
-[[ -s "/home/ivan/.rvm/scripts/rvm" ]] && source "/home/ivan/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
+[[ -s "~/.rvm/scripts/rvm" ]] && source "~/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-BLACK="\[\033[0;38m\]"
+#BLACK="\[\033[0;38m\]"
+WHITE="\[\033[0;38m\]"
 RED="\[\033[0;31m\]"
 RED_BOLD="\[\033[01;31m\]"
 BLUE="\[\033[01;34m\]"
-GREEN="\[\033[0;33m\]"
+YELLOW="\[\033[0;33m\]"
+YELLOW_BOLD="\[\033[1;33m\]"
+GREEN="\[\033[1;32m\]"
+TEST="\[\033[0;33m\]"
+CYAN="\[\033[1;36m\]"
+export PS1="$YELLOW[\u$GREEN@\h$YELLOW]$BLUE\w$RED_BOLD\$(parse_git_branch)$WHITE"
 
-export PS1="$GREEN[\u@\h $BLUE\w$RED_BOLD\$(parse_git_branch)$BLACK"
 
-
-# mysql2 gem fix:
- export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
+# mysql2 gem fix: mac?
+#export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
 
 
 
@@ -52,7 +48,7 @@ function parse_git_dirty {
     [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit, working directory clean" ]] && echo "*"
 }
 function parse_git_branch {
-    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ [git::\1$(parse_git_dirty)]/"
+    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/[git::\1$(parse_git_dirty)]/"
 }
 
 
