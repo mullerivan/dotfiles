@@ -39,7 +39,7 @@ YELLOW_BOLD="\[\033[1;33m\]"
 GREEN="\[\033[1;32m\]"
 TEST="\[\033[0;33m\]"
 CYAN="\[\033[1;36m\]"
-export PS1="$YELLOW[\u$GREEN@\h$YELLOW]$BLUE\w$RED_BOLD\$(parse_git_branch)\n࿊ ~$WHITE"
+export PS1="$YELLOW[\u$GREEN@$YELLOW\h]$BLUE\w$RED_BOLD\$(parse_git_branch)\n࿊ $BLUE\t$GREEN~$WHITE"
 
 
 # mysql2 gem fix: mac?
@@ -68,9 +68,12 @@ export PATH="/usr/local/heroku/bin:$PATH"
 #Yellow
 alias t3='ssh 124.198.191.63'
 alias t5='ssh 202.130.47.221'
+#alias australia='ssh ivan@103.7.168.150'
 alias australia='ssh australiatourism.travel'
-alias office='ssh nztg@192.168.8.11'
+#alias office='ssh nztg@192.168.8.11'
+alias office='ssh 103.247.154.219 -p 9022'
 alias yoda='ssh ivan@202.174.115.34'
+alias offices_up ='ssh ivan@103.247.154.219 -p 9022 -L 8000:localhost:80'
 #lsb_release -a
 export PYTHONPATH=/usr/bin/python
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python

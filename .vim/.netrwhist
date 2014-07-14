@@ -1,3 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/ivan/ingenyo/playbooks/roles/fail2ban/tasks'
+let g:netrw_dirhist_2='/etc/mercurial/hgrc.d'
+let g:netrw_dirhist_3='/home/ivan/yellow/test'
+let g:netrw_dirhist_4='/home/ivan/.ssh'

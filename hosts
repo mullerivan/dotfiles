@@ -2,20 +2,26 @@
 127.0.1.1 juana
 #OFFICE SERVER
 23.98.64.128 enviromap.asurequality.com
-192.168.8.11 w12.tourism.net.nz
-192.168.8.11 w2.tourism.net.nz
-192.168.8.11 w11.tourism.net.nz
-192.168.8.11 w27.tourism.net.nz
-192.168.8.11 ivan.tourism.net.nz
-192.168.8.11 marek.tourism.net.nz
-192.168.8.11 william.tourism.net.nz
+127.0.0.1 w12.tourism.net.nz
+127.0.0.1 w2.tourism.net.nz
+127.0.0.1 w11.tourism.net.nz
+127.0.0.1 w27.tourism.net.nz
+127.0.0.1 ivan.tourism.net.nz
+127.0.0.1 marek.tourism.net.nz
+127.0.0.1 william.tourism.net.nz
 
 #http://www.australiatourism.travel/
 #103.7.168.150 www.australiatourism.travel
 103.7.168.150 www.staging.australiatourism.travel
 #103.7.168.150 australiatourism.travel
 103.7.168.150 staging.australiatourism.travel
+192.168.8.2 old.w12.tourism.net.nz
+127.0.0.1 mercurial.local
+202.174.115.34 newsletter.tourism.net.nz
+202.174.115.34 www.newsletter.tourism.net.nz
+202.174.115.34 www.staging.pacifictourism.travel
 #YODA
+
 #202.174.115.34 www.tourism.net.nz
 #127.0.0.1 www.tourism.net.nz
 #127.0.0.1 tourism.net.nz
@@ -53,7 +59,8 @@
 
 
 # NZTO
-124.198.191.63 a.tourism.net.nz svn.tourism.net.nz trac.tourism.net.nz pear.tourism.net.nz banner.tourism.net.nz mailing.tourism.net.nz tourism3
+202.174.115.34 trac.tourism.net.nz pear.tourism.net.nz banner.tourism.net.nz mailing.tourism.net.nz
+202.174.115.34 trac.tourism.net.nz
 124.198.191.63 t3
 124.198.191.63 jenkins.tourism.net.nz
 124.198.191.63 banner.tourism.net.nz
