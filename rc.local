@@ -10,5 +10,5 @@
 # bits.
 #
 # By default this script does nothing.
-iptables-restore < /home/ivan/projectos/dotfiles/iptables.conf
+iptables-restore < /etc/iptables.rules
 exit 0

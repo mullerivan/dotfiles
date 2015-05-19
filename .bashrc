@@ -3,7 +3,8 @@ alias my='mysql -uroot -p'
 alias gl="git log --pretty=oneline --abbrev-commit --graph --decorate"
 alias pkill='pkill -9'
 alias catt="pygmentize -g"
-alias ingenyo='ssh ivan@162.248.164.204'
+alias ingenyo='ssh root@104.167.97.207'
+alias ingenyo_dev='ssh root@104.167.100.156'
 alias casa='ssh casa@casa.local'
 alias dos='sudo hping3 --rand-source -i u1 -S -p 80'
 alias up80='sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT'
@@ -16,6 +17,7 @@ alias du='du -csh'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias enable_ip_forward='sudo sysctl -w net.ipv4.ip_forward=1'
 # awk '!array_temp[$0]++' .bash_history  >nuevo_historial
 export EDITOR=vim
 export HISTSIZE=1000000
@@ -73,7 +75,14 @@ alias australia='ssh australiatourism.travel'
 #alias office='ssh nztg@192.168.8.11'
 alias office='ssh 103.247.154.219 -p 9022'
 alias yoda='ssh ivan@202.174.115.34'
-alias offices_up ='ssh ivan@103.247.154.219 -p 9022 -L 8000:localhost:80'
+alias office_up='ssh ivan@103.247.154.219 -p 9022 -L 8000:localhost:80'
+alias ageconcern='ssh ivan@ageconcern.org.nz'
+alias ageconcern_up='ssh ivan@ageconcern.org.nz -L 8000:localhost:3000'
+
+#ssh ivan@ageconcern.org.nz
+
+
+
 #lsb_release -a
 export PYTHONPATH=/usr/bin/python
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python

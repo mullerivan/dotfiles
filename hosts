@@ -1,64 +1,32 @@
 127.0.0.1	localhost
 127.0.1.1 juana
 #OFFICE SERVER
-23.98.64.128 enviromap.asurequality.com
-127.0.0.1 w12.tourism.net.nz
-127.0.0.1 w2.tourism.net.nz
-127.0.0.1 w11.tourism.net.nz
-127.0.0.1 w27.tourism.net.nz
-127.0.0.1 ivan.tourism.net.nz
-127.0.0.1 marek.tourism.net.nz
-127.0.0.1 william.tourism.net.nz
-
+#127.0.0.1 mullerivan.com.dev
+#127.0.0.1 mullerivan.com
+127.0.0.1 www.camara.com.dev
+127.0.0.1 www.redmine.com.dev
 #http://www.australiatourism.travel/
 #103.7.168.150 www.australiatourism.travel
 103.7.168.150 www.staging.australiatourism.travel
 #103.7.168.150 australiatourism.travel
 103.7.168.150 staging.australiatourism.travel
-192.168.8.2 old.w12.tourism.net.nz
-127.0.0.1 mercurial.local
+202.174.115.97 www.staging.pacifictourism.travel
 202.174.115.34 newsletter.tourism.net.nz
 202.174.115.34 www.newsletter.tourism.net.nz
 202.174.115.34 www.staging.pacifictourism.travel
+202.174.115.34 m.2millersflat.co.nz
+202.174.115.34 mf.rooney.net.nz
+#127.0.0.1 www.tourism.net.nz
+#127.0.0.1 m.millersflat.co.nz
 #YODA
 
-#202.174.115.34 www.tourism.net.nz
-#127.0.0.1 www.tourism.net.nz
-#127.0.0.1 tourism.net.nz
-#127.0.0.1 www.hola.com
-#127.0.0.1 hola.com
-#202.174.115.34 tourism.net.nz
-#202.174.115.34 trac.tourism.net.nz
-#202.174.115.34 newzealandtourism.co.nz
-#202.174.115.34 www.newzealandtourism.co.nz
-#202.174.115.34 tourism.gen.nz
-#202.174.115.34 www.tourism.gen.nz
-#202.174.115.34 nzto.co.nz
-#202.174.115.34 www.nzto.co.nz
-#202.174.115.34 nzto.com
-#202.174.115.34 www.nzto.com
-#202.174.115.34 www.tourismaward.co.nz
-#202.174.115.34 tourismaward.co.nz
-#202.174.115.34 tourism.org.nz
-#202.174.115.34 www.tourism.org.nz
-#Yoda next ip
-#202.174.115.34 www.pacifictourism.travel
-#202.174.115.34 pacifictourism.travel
-#202.174.115.97 www.pacifictourism.travel
-#202.174.115.97 pacifictourism.travel
-
-#YODA STAGING
-#202.174.115.34 staging.nzto.co.nz
-#202.174.115.34 www.staging.nzto.co.nz
-#202.174.115.34 staging.nzto.com
-#202.174.115.34 www.staging.nzto.com
-#202.174.115.34 staging.newzealandtourism.co.nz;
-#202.174.115.34 www.staging.newzealandtourism.co.nz;
 202.174.115.34 staging.tourism.net.nz
 202.174.115.34 www.staging.tourism.net.nz
 
 
 # NZTO
+#127.0.0.1 tourism.net.nz
+
 202.174.115.34 trac.tourism.net.nz pear.tourism.net.nz banner.tourism.net.nz mailing.tourism.net.nz
 202.174.115.34 trac.tourism.net.nz
 124.198.191.63 t3
@@ -67,4 +35,17 @@
 124.198.191.95 t4
 124.198.191.95 tourism4
 124.198.191.63 ivan.tourism.net.nz
+
+
+127.0.0.1 ageconcern.org.nz
+127.0.0.1 www.ageconcern.org.nz
+127.0.0.1 help.ageconcern.org.nz
+127.0.0.1 www.help.ageconcern.org.nz
+127.0.0.1 db.ageconcern.org.nz
+127.0.0.1 www.db.ageconcern.org.nz
+#ingenyo
 162.248.164.204 webmail.centroagalma.com.ar
+
+#162.248.164.204 noobspearo.com
+#173.245.59.150 noobspearo.com
+127.0.0.1 Gerardo.tourism.net.nz
