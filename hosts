@@ -1,8 +1,11 @@
 127.0.0.1	localhost
 127.0.1.1 juana
+127.0.1.1 rebecca
+127.0.0.1  www.safekiwi.co.nz
 #OFFICE SERVER
 #127.0.0.1 mullerivan.com.dev
 #127.0.0.1 mullerivan.com
+104.233.83.26  colo.com.ar
 127.0.0.1 www.camara.com.dev
 127.0.0.1 www.redmine.com.dev
 192.168.1.50 www.mincam.raspberry
@@ -35,7 +38,9 @@
 124.198.191.63 banner.tourism.net.nz
 124.198.191.95 t4
 124.198.191.95 tourism4
-124.198.191.63 ivan.tourism.net.nz
+#124.198.191.63 ivan.tourism.net.nz
+127.0.0.1 ivan.tourism.net.nz
+127.0.0.1 aidan.tourism.net.nz
 
 
 127.0.0.1 ageconcern.org.nz

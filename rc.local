@@ -11,4 +11,5 @@
 #
 # By default this script does nothing.
 iptables-restore < /etc/iptables.rules
+syndaemon -i 0.3 -d
 exit 0

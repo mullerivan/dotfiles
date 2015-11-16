@@ -3,18 +3,21 @@ export ZSH=$HOME/.oh-my-zsh
 alias my='mysql -uroot -p'
 alias gl="git log --pretty=oneline --abbrev-commit --graph --decorate"
 alias catt="pygmentize -g"
-alias ingenyo='ssh root@104.167.97.207'
+alias ingenyo='ssh root@168.235.151.204'
 alias ingenyo_dev='ssh root@104.167.100.156'
 alias dos='sudo hping3 --rand-source -i u1 -S -p 80'
 alias up80='sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT'
 alias flatout='wine  /home/ivan/Game/FlatOut/flatout.exe'
-alias dropiptables='sudo sh /home/ivan/projectos/dotfiles/drop-iptables.sh'
+alias dropiptables='sudo sh /home/ivan/.dotfiles/drop-iptables.sh'
 alias whatsmyip='wget -qO- http://ipecho.net/plain ; echo'
 alias du='du -csh'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias enable_ip_forward='sudo sysctl -w net.ipv4.ip_forward=1'
+alias office='ssh 103.247.154.219 -p 9022'
+alias office_up_jenkins='ssh ivan@103.247.154.219 -p 9022 -L 8080:localhost:8080'
+alias office_up='ssh ivan@103.247.154.219 -p 9022 -L 8000:localhost:80'
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
