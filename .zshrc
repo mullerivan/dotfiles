@@ -4,7 +4,9 @@ alias my='mysql -uroot -p'
 alias gl="git log --pretty=oneline --abbrev-commit --graph --decorate"
 alias catt="pygmentize -g"
 alias ingenyo='ssh root@168.235.151.204'
-alias ingenyo_dev='ssh root@104.167.100.156'
+alias minador_ingenyo='ssh root@104.233.88.176'
+alias minador_colo='ssh colo@104.233.93.15' #ecdhcdp123
+alias minador_lenga='ssh user@104.233.98.55' #eLUsupuBUH
 alias dos='sudo hping3 --rand-source -i u1 -S -p 80'
 alias up80='sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT'
 alias flatout='wine  /home/ivan/Game/FlatOut/flatout.exe'
@@ -18,7 +20,8 @@ alias enable_ip_forward='sudo sysctl -w net.ipv4.ip_forward=1'
 alias office='ssh 103.247.154.219 -p 9022'
 alias office_up_jenkins='ssh ivan@103.247.154.219 -p 9022 -L 8080:localhost:8080'
 alias office_up='ssh ivan@103.247.154.219 -p 9022 -L 8000:localhost:80'
-
+alias gopro='wget -r -p -l inf -np http://10.5.5.9:8080/videos/DCIM/110GOPRO/'
+alias temp='while true; do clear; sensors; sleep 1; done'
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each

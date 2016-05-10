@@ -88,4 +88,3 @@ export PYTHONPATH=/usr/bin/python
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/bin/virtualenv
 
-source /etc/bash_completion.d/virtualenvwrapper
