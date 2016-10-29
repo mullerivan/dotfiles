@@ -1,6 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/usr/local/lib/python2.7/dist-packages/newsletter'
 let g:netrw_dirhist_2='/home/ivan/python-bittrex/bittrex'
 let g:netrw_dirhist_3='/home/ivan/python-bittrex'
 let g:netrw_dirhist_4='/home/ivan/mincamde/cryptoEscrow/core/management'
+let g:netrw_dirhist_5='/home/ivan/mincamde'
+let g:netrw_dirhist_6='/home/ivan/.navcoin2'
+let g:netrw_dirhist_7='/home/ivan/Documents/wallet'
