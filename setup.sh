@@ -9,3 +9,5 @@ rm -fr  /etc/rc.local; ln -s /home/ivan/.dotfiles/rc.local  /etc/rc.local
 #hosts files
 rm -fr /etc/hosts ;ln -s /home/ivan/.dotfiles/hosts  /etc/hosts
 
+rm -fr /etc/iptables/iptables.rules ;ln -s /home/ivan/.dotfiles/iptables.rules /etc/iptables/iptables.rules
+

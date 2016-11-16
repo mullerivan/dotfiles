@@ -23,6 +23,9 @@ alias office_up_jenkins='ssh ivan@103.247.154.219 -p 9022 -L 8080:localhost:8080
 alias office_up='ssh ivan@103.247.154.219 -p 9022 -L 8000:localhost:80'
 alias gopro='wget -r -p -l inf -np http://10.5.5.9:8080/videos/DCIM/110GOPRO/'
 alias temp='while true; do clear; sensors; sleep 1; done'
+alias remove-old-dependencies='sudo pacman -Rsn $(pacman -Qdtq)'
+alias rm-private='fusermount -u "/home/ivan/private"'
+alias load-private="cryfs /home/ivan/.private /home/ivan/private"
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
