@@ -3,10 +3,15 @@ export ZSH=$HOME/.oh-my-zsh
 alias my='mysql -uroot -p'
 alias gl="git log --pretty=oneline --abbrev-commit --graph --decorate"
 alias catt="pygmentize -g"
-alias ingenyo='ssh root@168.235.151.204'
+alias ingenyo='ssh root@64.137.239.73'
+alias sfkiwi='ssh  root@103.6.212.239'
+alias spiralenglish='ssh root@118.193.17.114'
+alias vetsouth='ssh root@103.16.181.135'
 alias minador_ingenyo='ssh root@104.233.88.176'
+alias weeskills='ssh ivan@119.81.149.10'
 alias minador_colo='ssh colo@104.233.93.15' #ecdhcdp123
 alias minador_lenga='ssh user@104.233.98.55' #eLUsupuBUH
+alias amlnz_server="ssh  root@103.6.212.239"
 alias dos='sudo hping3 --rand-source -i u1 -S -p 80'
 alias up80='sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT'
 alias flatout='wine  /home/ivan/Game/FlatOut/flatout.exe'
@@ -26,6 +31,10 @@ alias temp='while true; do clear; sensors; sleep 1; done'
 alias remove-old-dependencies='sudo pacman -Rsn $(pacman -Qdtq)'
 alias rm-private='fusermount -u "/home/ivan/private"'
 alias load-private="cryfs /home/ivan/.private /home/ivan/private"
+alias load-private-dropbox='cryfs /home/ivan/Dropbox/private /home/ivan/private-dropbox'
+alias rm-private-dropbox='fusermount -u "/home/ivan/private-dropbox"'
+alias pycharm="sh -c 'cd /opt/pycharm-145.597.11/bin/ && /opt/pycharm-145.597.11/bin/pycharm.sh'"
+alias touchpad="sudo synclient PalmDetect=1 PalmMinWidth=100 PalmMinZ=400"
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -109,3 +118,4 @@ PATH="$GEM_HOME/bin:$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export VISUAL="vim"

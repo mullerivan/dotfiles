@@ -10,7 +10,7 @@ set smartindent
 set nobackup
 set noswapfile
 set nowritebackup
-set cm=blowfish
+set cm=blowfish2
 " show tabs and trailing spaces
 set list
 set listchars=tab:>-,trail:-
