@@ -4,8 +4,8 @@ alias my='mysql -uroot -p'
 alias gl="git log --pretty=oneline --abbrev-commit --graph --decorate"
 alias catt="pygmentize -g"
 alias ingenyo='ssh root@64.137.239.73'
-alias tracker197='ssh root@138.197.200.197'
-alias tracker152='ssh root@178.128.240.152'
+alias tracker1='ssh root@51.159.0.150'
+alias tracker2='ssh root@51.15.24.120'
 alias sfkiwi='ssh  root@103.6.212.239'
 alias spiralenglish='ssh root@118.193.17.114'
 alias vetsouth='ssh root@103.16.181.135'

@@ -1,29 +1,6 @@
 127.0.0.1	localhost
-127.0.1.1 juana
-127.0.1.1 Juana
-192.168.1.104 raspberrypi.local
+127.0.0.1	amlu.co.nz
 #OFFICE SERVER
-#127.0.0.1 mullerivan.com.dev
-#127.0.0.1 mullerivan.com
-104.233.83.26  colo.com.ar
-168.235.151.204 www.camara.com.dev
-127.0.0.1 www.redmine.com.dev
-192.168.1.50 www.mincam.raspberry
-#http://www.australiatourism.travel/
-#103.7.168.150 www.australiatourism.travel
-103.7.168.150 www.staging.australiatourism.travel
-#103.7.168.150 australiatourism.travel
-103.7.168.150 staging.australiatourism.travel
-202.174.115.97 www.staging.pacifictourism.travel
-202.174.115.34 newsletter.tourism.net.nz
-202.174.115.34 www.newsletter.tourism.net.nz
-202.174.115.34 www.staging.pacifictourism.travel
-202.174.115.34 m.2millersflat.co.nz
-202.174.115.34 mf.rooney.net.nz
-#127.0.0.1 www.tourism.net.nz
-#127.0.0.1 m.millersflat.co.nz
-#YODA
-
 202.174.115.34 staging.tourism.net.nz
 202.174.115.34 www.staging.tourism.net.nz
 
@@ -42,16 +19,3 @@
 127.0.0.1 ivan.tourism.net.nz
 127.0.0.1 aidan.tourism.net.nz
 
-
-127.0.0.1 ageconcern.org.nz
-127.0.0.1 www.ageconcern.org.nz
-127.0.0.1 help.ageconcern.org.nz
-127.0.0.1 www.help.ageconcern.org.nz
-127.0.0.1 db.ageconcern.org.nz
-127.0.0.1 www.db.ageconcern.org.nz
-#ingenyo
-162.248.164.204 webmail.centroagalma.com.ar
-
-#162.248.164.204 noobspearo.com
-#173.245.59.150 noobspearo.com
-127.0.0.1 Gerardo.tourism.net.nz
