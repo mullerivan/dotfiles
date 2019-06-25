@@ -1,10 +1,13 @@
 127.0.0.1	localhost
 127.0.0.1	amlu.co.nz
+127.0.0.1 demo.amlu.co.nz
+127.0.0.1 uat.amlu.co.nz
+127.0.0.1 staging.amlu.co.nz
+127.0.1.1	xps
+0.0.0.0 account.jetbrains.com
 #OFFICE SERVER
 202.174.115.34 staging.tourism.net.nz
 202.174.115.34 www.staging.tourism.net.nz
-
-
 # NZTO
 #127.0.0.1 tourism.net.nz
 
@@ -15,7 +18,4 @@
 124.198.191.63 banner.tourism.net.nz
 124.198.191.95 t4
 124.198.191.95 tourism4
-#124.198.191.63 ivan.tourism.net.nz
-127.0.0.1 ivan.tourism.net.nz
-127.0.0.1 aidan.tourism.net.nz
-
+62.210.82.118 ssl.swarm.video

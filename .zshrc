@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+alias compile_p2p='time cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build && cd build &&scp swarm.js root@195.154.214.164:/root/swarm_stats/node-api-postgres/telerium_dev.js'
 alias my='mysql -uroot -p'
 alias gl="git log --pretty=oneline --abbrev-commit --graph --decorate"
 alias catt="pygmentize -g"
@@ -121,3 +122,15 @@ PATH="$GEM_HOME/bin:$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export VISUAL="vim"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/ivan/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/home/ivan/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/ivan/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/ivan/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
