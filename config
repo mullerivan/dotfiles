@@ -1,0 +1,130 @@
+
+#ssh safe-web-01 -L 8002:localhost:443
+host swarm.video
+   User swarm
+   Port 420
+   Hostname 195.154.214.164
+   PubkeyAuthentication yes
+   IdentityFile ~/.ssh/id_rsa
+   AddKeysToAgent yes
+
+host TTUNO
+   User swarm
+   Port 420
+   Hostname 62.210.180.114
+   PubkeyAuthentication yes
+   IdentityFile ~/.ssh/id_rsa
+   AddKeysToAgent yes
+
+host TTDOS
+   User swarm
+   Port 420
+   Hostname 62.210.140.90
+   PubkeyAuthentication yes
+   IdentityFile ~/.ssh/id_rsa
+   AddKeysToAgent yes
+
+host TTTRES
+   User swarm
+   Port 420
+   Hostname 62.210.88.231
+   PubkeyAuthentication yes
+   IdentityFile ~/.ssh/id_rsa
+   AddKeysToAgent yes
+
+host TTCUATRO
+   User swarm
+   Port 420
+   Hostname 62.210.84.45
+   PubkeyAuthentication yes
+   IdentityFile ~/.ssh/id_rsa
+   AddKeysToAgent yes
+
+host TTCINCO
+   User swarm
+   Port 420
+   Hostname 62.210.82.118
+   PubkeyAuthentication yes
+   IdentityFile ~/.ssh/id_rsa
+   AddKeysToAgent yes
+
+host TTSEIS
+   User swarm
+   Port 420
+   Hostname 62.210.178.90
+   PubkeyAuthentication yes
+   IdentityFile ~/.ssh/id_rsa
+   AddKeysToAgent yes
+
+host TTSIETE
+   User swarm
+   Port 420
+   Hostname 62.210.178.78
+   PubkeyAuthentication yes
+   IdentityFile ~/.ssh/id_rsa
+   AddKeysToAgent yes
+
+host e1
+   User root
+   Port 22
+   Hostname 103.6.212.239
+   PubkeyAuthentication yes
+   IdentityFile ~/.ssh/id_rsa
+   AddKeysToAgent yes
+
+host safe-web-01
+   User devs
+   Hostname api.amlu.co.nz
+   Port 2223
+   IdentityFile ~/.ssh/id_rsa
+   ServerAliveInterval 300
+   ProxyCommand ssh -W %h:%p e1
+   AddKeysToAgent yes
+
+host safe-fs-01
+   User devs
+   Hostname api.amlu.co.nz
+   Port 2224
+   IdentityFile ~/.ssh/id_rsa
+   ServerAliveInterval 300
+   ProxyCommand ssh -W %h:%p e1
+   AddKeysToAgent yes
+
+host safe-db-01
+   User devs
+   Hostname api.amlu.co.nz
+   Port 2225
+   IdentityFile ~/.ssh/id_rsa
+   ServerAliveInterval 300
+   ProxyCommand ssh -W %h:%p e1
+   AddKeysToAgent yes
+host safe-dev-web-01 
+   User devs
+   Hostname api.amlu.co.nz 
+   Port 2226 
+   IdentityFile ~/.ssh/id_rsa
+   ServerAliveInterval 300 
+   ProxyCommand ssh -W %h:%p e1 
+   AddKeysToAgent yes
+host safe-dev-db-01 
+   User devs 
+   Hostname api.amlu.co.nz 
+   Port 2227 
+   IdentityFile ~/.ssh/id_rsa
+   ServerAliveInterval 300 
+   ProxyCommand ssh -W %h:%p e1 
+   AddKeysToAgent yes
+
+Host spiralenglish
+   User root
+   HostName 118.193.17.114
+
+Host tutor58
+   User root
+   HostName 47.75.247.241
+
+host 454 
+   User root 
+   Hostname 103.6.212.81 
+   IdentityFile ~/.ssh/encode.rsa
+
