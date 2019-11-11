@@ -1,10 +1,7 @@
 127.0.0.1	localhost
-127.0.0.1	amlu.co.nz
-127.0.0.1 demo.amlu.co.nz
-127.0.0.1 uat.amlu.co.nz
-127.0.0.1 staging.amlu.co.nz
 127.0.1.1	xps
 0.0.0.0 account.jetbrains.com
+0.0.0.0 www-weighted.jetbrains.com
 #OFFICE SERVER
 202.174.115.34 staging.tourism.net.nz
 202.174.115.34 www.staging.tourism.net.nz
@@ -18,3 +15,7 @@
 124.198.191.63 banner.tourism.net.nz
 124.198.191.95 t4
 124.198.191.95 tourism4
+47.244.175.105 www.spiralenglish.com
+47.244.175.105 www.staging.spiralenglish.com
+47.244.175.105 staging.spiralenglish.com
+47.244.175.105 spiralenglish.com

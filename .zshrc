@@ -1,9 +1,14 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 alias compile_p2p='time cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build && cd build &&scp swarm.js swarm.video:telerium_dev.js'
-alias compile_p2p_swarm='cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_public && cd build &&scp public.js swarm.video:client.js'
+alias compile_p2p_vimm='time cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_vimm && cd build &&scp vimm.js swarm.video:vimm.js'
+alias compile_p2p_kunyo='time cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_kunyo && cd build &&scp kunyo.js swarm.video:kunyo.js'
+alias compile_p2p_kudaplay='time cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_kudaplay && cd build &&scp kudaplay.js swarm.video:kudaplay.js'
+
+alias compile_p2p_swarm='cd  /home/ivan/encode/swarm/p2p/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build && cd build &&scp swarm.js swarm.video:swarm.js'
 alias compile_p2p_cdnx='cd  /home/ivan/encode/swarm/p2p-VOD/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_cdnx && cd build &&scp cdnx.stream.js swarm.video:cdnx_stream_dev.js'
 alias compile_p2p_vipbox='cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build && cd build &&scp swarm.js swarm.video:kuntv.js'
+alias compile_p2p_wstream='cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_wstream && cd build &&scp wstream.js swarm.video:wstream.js'
 alias my='mysql -uroot -p'
 alias gl="git log --pretty=oneline --abbrev-commit --graph --decorate"
 alias catt="pygmentize -g"
