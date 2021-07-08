@@ -1,10 +1,22 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-alias compile_p2p='time cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build && cd build &&scp swarm.js swarm.video:telerium_dev.js'
+alias compile_p2p='cd  /home/ivan/swarm-tracker/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_swarm && cd build &&scp swarm.js swarm.video:swarm_dev.js'
+alias compile_p2p_media='cd  /home/ivan/swarm-tracker/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_medianetwork'
+alias compile_p2p_esporteone='cd  /home/ivan/swarm-tracker/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_esporteone && cd build &&scp esporteone.js swarm.video:esporteone_dev.js'
+alias compile_p2p_futemax='cd  /home/ivan/swarm-tracker/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_futemax && cd build &&scp vip.js swarm.video:vip_dev.js'
+alias compile_p2p_telerium='cd  /home/ivan/swarm-tracker/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_telerium && cd build &&scp telerium.js swarm.video:telerium_dev.js'
+alias compile_p2p_hhdstreams='cd  /home/ivan/swarm-tracker/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_hhdstreams && cd build &&scp hhdstreams.js swarm.video:hhdstreams_dev.js'
+alias compile_p2p_streamsport='cd  /home/ivan/swarm-tracker/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_streamsport && cd build &&scp streamsport.js swarm.video:streamsport_dev.js'
+alias compile_p2p_wigistream='cd  /home/ivan/swarm-tracker/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_wigistream && cd build &&scp wigistream.js swarm.video:wigistream_dev.js'
+alias compile_p2p_rey='cd  /home/ivan/swarm-tracker/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_rey && cd build &&scp rey.js swarm.video:rey_dev.js'
+alias compile_p2p_plytv='cd  /home/ivan/swarm-tracker/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_plytv && cd build &&scp plytv.js swarm.video:plytv_dev.js'
+alias compile_p2p_voodfy='cd  /home/ivan/swarm-tracker/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_voodfy && cd build &&scp voodfy.js swarm.video:voodfy_dev.js'
+
+
+
 alias compile_p2p_vimm='time cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_vimm && cd build &&scp vimm.js swarm.video:vimm.js'
 alias compile_p2p_kunyo='time cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_kunyo && cd build &&scp kunyo.js swarm.video:kunyo.js'
 alias compile_p2p_kudaplay='time cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_kudaplay && cd build &&scp kudaplay.js swarm.video:kudaplay.js'
-
 alias compile_p2p_swarm='cd  /home/ivan/encode/swarm/p2p/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build && cd build &&scp swarm.js swarm.video:swarm.js'
 alias compile_p2p_cdnx='cd  /home/ivan/encode/swarm/p2p-VOD/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build_cdnx && cd build &&scp cdnx.stream.js swarm.video:cdnx_stream_dev.js'
 alias compile_p2p_vipbox='cd  /home/ivan/encode/swarm/p2p-media-loader/p2p-media-loader-core && npm run build && cd ../p2p-media-loader-hlsjs && npm run build && cd build &&scp swarm.js swarm.video:kuntv.js'
@@ -98,7 +110,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/home/ivan/.cargo/bin:/home/ivan/.local/share/solana/install/active_release/bin"
 
 
 PATH="$GEM_HOME/bin:$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting
